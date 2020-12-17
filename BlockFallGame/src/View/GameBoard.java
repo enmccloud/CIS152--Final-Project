@@ -131,8 +131,10 @@ public class GameBoard {
 	}
 	
     /**
-     *  UPdates the game window with parameter string
-     * @param toOutput the String to put on the game
+     * Set Output Method
+     * 
+     * @param toOutput 
+     * -- Updates the game window with parameter string
      */
     public void setOutput(String toOutput){
          BoardPanel.setText(toOutput);
